@@ -21,7 +21,7 @@ const page = () => {
      <div className='bg-slate-300 text-black px-1 '><ul>
       {
         ans.map((e)=>{
-              return <li>{e.title}--- <Link href={`/${e.id}`}>Explore</Link></li>
+              return <li>{e.title}--- <Link href={`/${e.id}`}>Explore me</Link></li>
           
         })
         
