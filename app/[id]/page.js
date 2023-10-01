@@ -18,7 +18,10 @@ const page = ({params}) => {
  
   return (
     <div> {
-      <li>{JSON.stringify(pagecontent)}</li>
+      <li>{JSON.stringify(pagecontent)}
+      <h1>Hello moto</h1>
+      </li>
+      
       }</div>
   )
 }
