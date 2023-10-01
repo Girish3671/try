@@ -20,6 +20,8 @@ const page = ({params}) => {
     <div> {
       <li>{JSON.stringify(pagecontent)}
       <h1>hello moto</h1>
+      <h1>kuch bhi done </h1>
+      
       </li>
       
       }</div>
